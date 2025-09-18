@@ -1,0 +1,80 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Styled To-Do List</title>
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <ul class="todo-list">
+    <li>
+        <input type="checkbox" id="photoshop">
+      <label for="photoshop">Practice Photoshop</label>
+      <ul class="sub-item">
+        <li>
+          <a class="sub-item-link" href="https://www.adobe.com/home" target="_blank">Sources</a>
+        </li>
+      </ul>
+    </li>
+
+    <li>
+        <input type="checkbox" id="excercise">
+      <label for="excercise">Pilates</label>
+      <ul class="sub-item">
+        <li>
+          <a class="sub-item-link" href="https://www.adobe.com/home" target="_blank">Sources</a>
+        </li>
+      </ul>
+    </li>
+
+    <li>
+        <input type="checkbox" id="english">
+      <label for="english">English Speaking</label>
+      <ul class="sub-item">
+        <li>
+          <a class="sub-item-link" href="https://www.instagram.com/pilatesmile1/" target="_blank">Sources</a>
+        </li>
+      </ul>
+    </li>
+
+    <li>
+        <input type="checkbox" id="diary">
+      <label for="diary">Write a diary</label>
+      <ul class="sub-item">
+        <li>
+          <a class="sub-item-link" href="https://www.adobe.com/home" target="_blank">Sources</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</body>
+
+</html>
+
+
+** end of index.html **
+
+** start of styles.css **
+
+.sub-item-link {
+text-decoration:none;color: lightgreen;
+}
+a:visited{
+  color: lightblue;
+}
+a:hover{
+  color: orange;
+}
+a:focus{
+  outline: 2px solid black;
+}
+a:active{
+  color: grey;
+}
+
+** end of styles.css **
+
