@@ -1,0 +1,22 @@
+ body {
+  text-align: center;
+  width: 80vw;
+  min-height: calc(100vh - 100px);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+section {
+  text-align: center;
+  display: inline-block;
+  width: 33%;
+}
+ul{
+  list-style-type: square;
+}
+hr {
+  width: 80%;
+}

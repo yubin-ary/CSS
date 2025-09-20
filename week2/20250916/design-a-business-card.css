@@ -19,5 +19,5 @@ p {
   max-width:100%;
 }
 a {
-  text-decoration: none;
+  text-decoration: none; /* used to delete underlines of links in a page.*/
 }
