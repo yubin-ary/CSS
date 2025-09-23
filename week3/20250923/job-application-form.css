@@ -1,0 +1,49 @@
+body{
+  background-color: maroon;
+  padding: 20px;
+}
+div{
+  box-sizing: content;
+  margin: auto;
+  width: 80vw;
+  background-color: floralwhite;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+input:invalid, select:invalid, textarea:invalid{
+  border-color:red;
+}
+input:valid, select:valid, textarea:valid{
+  border-color:green;
+}
+input:focus, textarea:focus{
+  border-color:orange;
+}
+textarea{
+  display: inline-block;
+  margin-top: 10px;
+  width: 40%;
+}
+button{
+  display: block;
+  margin: 20px auto 5px auto;
+}
+button:hover{
+background-color:lightyellow;
+}
+.radio-group input[type="radio"]:checked{
+border-color: lightyellow;
+background-color: lightyellow;
+box-shadow:0 0 2px 5px;
+}
+label:has(input[type="radio"]:checked){
+color:green;
+}
+input:first-of-type{
+  border-radius: 10px;
+}
+fieldset{
+  background-color: white;
+  text-align: center;
+}
