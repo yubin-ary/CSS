@@ -1,0 +1,71 @@
+html{
+  font-size:24px;
+}
+.newspaper{
+  margin-left: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;                   
+}
+
+.divider{
+  background-color: #888989;
+  width: 90%;
+  margin: 10px 0;
+}
+.small{
+  margin-top: 5px;
+  height: 2px;
+}
+
+
+.name{
+  text-transform: uppercase;
+  font-family: 'Times New Roman', serif;
+  font-size: 2rem;                  
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.date{
+  font-style: italic;
+  font-size: 15px;
+}
+.headline{
+  margin-top: 50px;
+  font-weight:bold;
+  font-size:2em;
+  margin-bottom: 30px;
+}
+.sub-headline{
+  font-size: 1.5em;
+  font-weight: 100;
+  font-style:italic;
+  
+}
+.author{
+  text-transform: uppercase;
+  font-weight: 700; 
+  font-size: 15px;
+}
+.text{
+  line-height: 2em;
+  text-indent: 20px;
+  font-size: 20px;
+}
+.text::first-letter{
+  font-size:2em;
+  font-weight: bold;
+}
+.emph{
+  font-weight: 800;
+}
+.images{
+  align-items:center;
+  justify-content:center;
+  gap: 50px;
+  display: flex;
+}
+img{
+  width: 300px;
+  margin: 15px 0;
+}
